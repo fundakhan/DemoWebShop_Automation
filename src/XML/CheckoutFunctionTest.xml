@@ -1,0 +1,27 @@
+
+<suite name = "Checkout Function Test Suite">
+    <test name = "Checkout Function Test on Chrome">
+        <parameter name = "browser" value = "chrome"></parameter>
+        <parameter name = "username" value = "toffee@gmail.com"></parameter>
+        <parameter name = "password" value = "tof1234"></parameter>
+
+
+        <classes>
+            <class name="Test.PlaceAnOrderTest"></class>
+            <class name = "Test.CheckoutFunctionTest"></class>
+        </classes>
+    </test>
+
+    <test name = "Checkout Function Test on Firefox">
+        <parameter name = "browser" value = "firefox"></parameter>
+        <parameter name = "username" value = "toffee@gmail.com"></parameter>
+        <parameter name = "password" value = "tof1234"></parameter>
+
+
+        <classes>
+            <class name="Test.PlaceAnOrderTest"></class>
+            <class name = "Test.CheckoutFunctionTest"></class>
+        </classes>
+    </test>
+
+</suite>

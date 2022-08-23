@@ -1,0 +1,25 @@
+<suite name = "Place An Order Test Suite" >
+    <test name = "Place An Order Test on Chrome">
+        <parameter name = "browser" value = "chrome"></parameter>
+        <parameter name = "username" value = "toffee@gmail.com"></parameter>
+        <parameter name = "password" value = "tof1234"></parameter>
+
+        <classes>
+            <class name = "Test.PlaceAnOrderTest"></class>
+
+        </classes>
+    </test>
+
+    <test name = "Place An Order on Firefox">
+        <parameter name = "browser" value = "firefox"></parameter>
+        <parameter name = "username" value = "toffee@gmail.com"></parameter>
+        <parameter name = "password" value = "tof1234"></parameter>
+
+        <classes>
+            <class name = "Test.PlaceAnOrderTest"></class>
+
+        </classes>
+    </test>
+
+
+</suite>
